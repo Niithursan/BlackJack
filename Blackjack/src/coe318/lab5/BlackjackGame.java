@@ -6,7 +6,7 @@ package coe318.lab5;
 
 /**
  *
- * @author 
+ * @author Nithursan Jeyabalasingam
  */
 
 public class BlackjackGame {
@@ -54,7 +54,7 @@ public class BlackjackGame {
           houseDone = true;
         }
       }
-      if (!playerDone) {
+      if (!playerDone) { // if player decides to hit they will recieve a new card
         if (ui.hitMe()) {
           getYourCards().add(deck.removeRandom());
           ui.display();
@@ -76,7 +76,7 @@ public class BlackjackGame {
    * @param p
    * @return the score
    */
-  public int score(CardPile p) {
+  public int score(CardPile p) { //original score = 0 + the value of the card you recieved
       int SumofScore=0;
       for(Card card: p.getCards())
       {

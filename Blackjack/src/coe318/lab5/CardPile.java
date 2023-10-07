@@ -2,7 +2,7 @@ package coe318.lab5;
 
 /**
  *
- * @author 
+ * @author Nithursan Jeyabalasingam
  */
 
 import java.util.ArrayList;

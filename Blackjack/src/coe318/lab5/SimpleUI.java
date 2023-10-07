@@ -1,6 +1,6 @@
 /**
  *
- * @author h36grewa
+ * @author Nithursan Jeyabalasingam
  */
 package coe318.lab5;
 
@@ -21,6 +21,9 @@ public class SimpleUI implements UserInterface {
       System.out.println("House holds:" + this.game.getHouseCards().toString()); 
       //House cards
       System.out.println("You hold:" + this.game.getYourCards().toString());
+      System.out.println("Your Score: " + game.score(game.getYourCards()));
+      System.out.println("----------------------------");
+
       // Your cards
     }
 
